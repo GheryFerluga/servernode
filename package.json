@@ -1,0 +1,22 @@
+{
+  "name": "servernode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "serve": "npm start",
+    "dev": "node dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GheryFerluga/servernode.git"
+  },
+  "author": "GheryFerluga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GheryFerluga/servernode/issues"
+  },
+  "homepage": "https://github.com/GheryFerluga/servernode#readme"
+}
