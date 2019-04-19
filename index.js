@@ -5,7 +5,7 @@ let port= process.argv[2] || 8080
 
 
 app.get('/books',function(req,res){
-  const filename=process.argv[3]
+  const filename='books.json'
   fs.readFile(filename,function(e,data){
     if(e)return res.sendStatus(500)
     try {
@@ -17,7 +17,7 @@ app.get('/books',function(req,res){
   })
 })
 app.get('/menu',function(req,res){
-  const filename=process.argv[3]
+  const filename='menu.json'
   fs.readFile(filename,function(e,data){
     if(e)return res.sendStatus(500)
     try {
@@ -26,6 +26,18 @@ app.get('/menu',function(req,res){
       res.sendStatus(500)
     }
     res.json(menu)
+  })
+})
+app.get('/settings',function(req,res){
+  const filename='settings.json'
+  fs.readFile(filename,function(e,data){
+    if(e)return res.sendStatus(500)
+    try {
+      settings = JSON.parse(data)
+    }catch (e){
+      res.sendStatus(500)
+    }
+    res.json(settings)
   })
 })
 
