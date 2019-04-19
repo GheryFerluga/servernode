@@ -1,22 +1,27 @@
 [
     {
         "titolo": "Il programmatore",
-        "autore": "Json"
+        "autore": "Json",
+        "user": 1
     },
     {
         "titolo": "Il Triangolo",
-        "autore": "Ken"
+        "autore": "Ken",
+        "user": 2
     },
     {
         "titolo": "Il Ken",
-        "autore": "Arnold"
+        "autore": "Arnold",
+        "user": 3
     },
     {
         "titolo": "Il Serpente",
-        "autore": "Sepr"
+        "autore": "Sepr",
+        "user": 4
     },
     {
         "titolo": "Il Contadino",
-        "autore": "Contadin"
+        "autore": "Contadin",
+        "user": 5
     }
 ]
