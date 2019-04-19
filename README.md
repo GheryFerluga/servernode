@@ -1,15 +1,7 @@
 # servernode
 ## Simple project for the Back-end course in Node.js
 
-### Per lanciare dev
+### Per init
 ```
-npm run express
-```
-### Per vedere la versione
-```
-node express.js v
-```
-### Per decidere la porta il valore va al terzo argv
-```
-node express.js v 1010
+npm start
 ```
